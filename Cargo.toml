@@ -1,5 +1,5 @@
 [package]
-name = "sd_notify_fds_ssh"
+name = "systemd_socket_proxy_ssh"
 version = "0.1.0"
 edition = "2024"
 

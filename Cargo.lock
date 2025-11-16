@@ -393,19 +393,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "sd_notify_fds_ssh"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "futures",
- "nix",
- "sd-notify",
- "systemd",
- "tokio",
-]
-
-[[package]]
 name = "signal-hook-registry"
 version = "1.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -460,6 +447,19 @@ dependencies = [
  "log",
  "memchr",
  "utf8-cstr",
+]
+
+[[package]]
+name = "systemd_socket_proxy_ssh"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "futures",
+ "nix",
+ "sd-notify",
+ "systemd",
+ "tokio",
 ]
 
 [[package]]
