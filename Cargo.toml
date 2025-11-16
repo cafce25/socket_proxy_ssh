@@ -1,0 +1,10 @@
+[package]
+name = "sd_notify_fds_ssh"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nix = { version = "0.30.1", features = ["fs", "socket"] }
+sd-notify = "0.4.5"
+systemd = "0.10.1"
+tokio = { version = "1.48.0", features = ["rt-multi-thread", "macros", "net", "process", "fs", "io-util", "time"] }
